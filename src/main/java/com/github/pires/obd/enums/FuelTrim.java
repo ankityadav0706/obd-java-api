@@ -32,10 +32,10 @@ import java.util.Map;
  */
 public enum FuelTrim {
 
-    SHORT_TERM_BANK_1(0x06, "Short Term Fuel Trim Bank 1"),
-    LONG_TERM_BANK_1(0x07, "Long Term Fuel Trim Bank 1"),
-    SHORT_TERM_BANK_2(0x08, "Short Term Fuel Trim Bank 2"),
-    LONG_TERM_BANK_2(0x09, "Long Term Fuel Trim Bank 2");
+    SHORT_TERM_BANK_1(0x06, "Short_Term_Fuel_Trim_Bank_1"),
+    LONG_TERM_BANK_1(0x07, "Long_Term_Fuel_Trim_Bank_1"),
+    SHORT_TERM_BANK_2(0x08, "Short_Term_Fuel_Trim_Bank_2"),
+    LONG_TERM_BANK_2(0x09, "Long_Term_Fuel_Trim_Bank_2");
 
     private static Map<Integer, FuelTrim> map = new HashMap<Integer, FuelTrim>();
 
